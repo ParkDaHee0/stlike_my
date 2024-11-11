@@ -9,7 +9,6 @@ let currentData = dataDay;
 // HTML에서 canvas 요소 찾기
 const ctx = document.getElementById('myChart').getContext('2d');
 
-
 // 탭 활성화 함수
 function setActiveTab(tabId) {
   const tabs = document.querySelectorAll('.tab');
