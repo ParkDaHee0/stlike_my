@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+:root {
+  /*  COLOR  */
+  --run-main-green: #004d40;
+  --run-main-yellow: #ffcd29;
+  --run-main-red: #FF3819;
+  --run-main-mint: #3AE9E6;
+  --run-main-white: #ffffff;
+  --run-main-black: #222;
+  --run-main-darkgray: #555;
+  --run-main-gray: #999;
+  --run-main-lightgray01: #d9d9d9;
+  --run-main-lightgray02: #eee;
+  --run-sub-green02: #4C935C;
+}
+
+#crew_member {
+  margin: 70px 0;
+}
+
+.kakao_share {
+  display: flex;
+  gap: 16px;
+  padding: 20px 16px;
+  align-items: center;
+}
+
+.kakao_share p {
+  font-weight: 500;
+}
+
+.crew_tab {
+  padding: 0 16px 20px;
+}
+
+.crew_tab ol {
+  display: flex;
+  gap: 10px;
+  width: 343px;
+  /* 고정된 너비 */
+  overflow-x: scroll;
+  /* 내용이 넘칠 때만 가로 스크롤 표시 */
+  white-space: nowrap;
+  scrollbar-width: none;
+}
+
+.crew_tab ol li {
+  padding: 4px 16px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--run-main-gray);
+  border: 1px solid var(--run-main-gray);
+  border-radius: 20px;
+}
+
+.crew_tab ol .crew_tab_on {
+  color: #fff;
+  background: var(--run-main-green);
+}
+
+
+.crew_info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px 20px;
+}
+
+.crew_info h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.crew_info p {
+  font-size: 1.2rem;
+  color: var(--run-main-gray);
+}
+
+.crew_num_list_wrap {
+  padding: 0 16px;
+}
+
+.crew_num_list>li {
+  display: flex;
+  gap: 18px;
+  padding-bottom: 20px;
+}
+
+.crew_num_list>li img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.crew_num_list_txt li {
+  font-weight: 500;
+}
+
+.crew_num_list_txt li p {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: var(--run-main-darkgray);
+}
