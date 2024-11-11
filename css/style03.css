@@ -749,7 +749,7 @@
 /*일별 그래프 시작*/
 .tabs {
   margin: 20px 16px;
-  padding: 5px;
+  padding: 6px 0;
   margin-bottom: 20px;
   background-color: #EEEEEE;
   border-radius: 10px;
@@ -777,6 +777,11 @@
   color: #004D40;
 }
 
+#myChart {
+  width: 343px !important;
+  margin: 0 auto;
+}
+
 /*카드 시작*/
 .latest_card {
   margin: 0 16px;
@@ -785,6 +790,10 @@
 
 
 /*그래프 리스트 시작*/
+.my_graph_list {
+  padding-bottom: 70px;
+}
+
 .my_graph_list table {
   margin: 30px 0;
   padding: 0 16px;
